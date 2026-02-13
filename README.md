@@ -144,4 +144,4 @@ if st.session_state.get('payment_done', False):
     # यहाँ आपका पुराना ड्राफ्ट और ऑडिट लॉग वाला कोड आएगा
 else:
     st.warning("🔒 रिपोर्ट देखने के लिए कृपया भुगतान पूरा करें।")
-    requirements.txtstreamlit, pandas, numpy, plotly, openai, st-gsheets-connection
+    requirements.txt streamlit, pandas, numpy, plotly, openai, st-gsheets-connection
