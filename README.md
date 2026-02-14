@@ -151,3 +151,26 @@ numpy
 plotly
 openai
 st-gsheets-connection
+import streamlit as st
+import numpy as np
+import plotly.express as px
+
+# Page settings
+st.set_page_config(page_title="DHIBOT Safety Control", layout="wide")
+st.title("🛡️ DHIBOT.AI: Safety Mission Control")
+st.markdown("### Post-Agentic Autonomous Infrastructure (PAAS) v0.1")
+
+# Main metrics
+col1, col2, col3 = st.columns(3)
+col1.metric("Alignment Drift (Δ)", "0.04", "-0.01")
+col2.metric("AI Karma Score", "9.8/10", "0.2")
+col3.metric("System Status", "SAFE", "Governed")
+
+st.divider()
+
+# Capability growth graph (Bounded Growth)
+st.subheader("Capability growth graph (Bounded Growth)")
+data = np.random.randn(20, 3)
+st.line_chart(data)
+
+# ... (Insert the rest of your English code here)
